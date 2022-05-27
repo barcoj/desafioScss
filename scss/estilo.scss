@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+
+    header {
+        border-bottom: 1px solid;
+
+        .navbar-brand {
+        .logoPrincipal {
+            width: 120px;
+            transition: all 0.3s;
+          
+            &:hover {
+              width: 130px;
+            }
+          }
+        }
+
+        li {
+            list-style-type: none;
+            color: blueviolet;
+            font-weight: bold;
+            font-size: larger;
+            display: inline-block;
+            
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                
+                    &:hover {
+                      background-color: red;
+                    }
+                        
+
+                    .logosRedes {
+                        width: 40px;
+                        margin: 5px;
+                     }
+
+            }
+        }
+
+    }
+
+   
+
+
+    main {
+        background-color: #444444;
+        text-align: center;
+
+        h2 {
+            color: black;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    footer {
+        padding: 20px 0;
+        background-color: black;
+        color: white;
+        
+        .btnWhats {
+            position: fixed;
+            right: 0;
+            bottom: 60px;
+            
+            .logosRedes {
+                width: 40px;
+                margin: 5px;  
+            }
+        }
+    }
+    
+    
+    
+
+}    
+
+
+
